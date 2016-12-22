@@ -1,0 +1,15 @@
+{
+    "main": [{
+        "url": "/home",
+        "text": "Home"
+    }, {
+        "url": "/contact",
+        "text": "Contact"
+    }, {
+        "url": "/products",
+        "text": "Products"
+    }, {
+        "url": "/services",
+        "text": "Services"
+    }]
+}
