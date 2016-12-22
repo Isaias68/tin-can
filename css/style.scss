@@ -1,11 +1,13 @@
 ---
 ---
+@import '../_sass/variables';
 @import '../_sass/helpers';
 @import '../_sass/bootstrap';
 @import '../_sass/syntax-highlighting';
 @import '../_sass/testimonials';
 @import '../_sass/footer';
 @import '../_sass/contact';
+@import '../_sass/navbar';
 
 $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
@@ -55,30 +57,7 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
     background: #086AFF;
     color: #fff;
 }
-nav.navbar {
-    height: 51px;
-    margin: 0;
 
-    a {
-        text-transform: uppercase;
-        font-size: 16px;
-    }
-
-    .navbar-brand {
-        text-transform: none;
-
-        i {
-            transition: inherit;
-            color: $scotch-primary;
-            transform: scale(1);
-        }
-
-        &:hover i {
-            color: rgb(255, 111, 111);
-            transform: scale(1.35);
-        }
-    }
-}
 .title-group {
     text-align: center;
     padding: 0 15px;
